@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <LifeStageDef>
+    <defName>ThrumboianBaby</defName>
+    <label>infant thrumboian</label>
+    <bodySizeFactor>0.2</bodySizeFactor>
+		<foodMaxFactor>1.5</foodMaxFactor>
+		<healthScaleFactor>0.2</healthScaleFactor>
+    <hungerRateFactor>0.2</hungerRateFactor>
+    <marketValueFactor>0.5</marketValueFactor>
+    <meleeDamageFactor>0.5</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>0.20</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>ThrumboianJuvenile</defName>
+    <label>juvenile thrumboian</label>
+    <bodySizeFactor>0.32</bodySizeFactor>
+		<foodMaxFactor>1.5</foodMaxFactor>
+		<healthScaleFactor>0.4</healthScaleFactor>
+    <hungerRateFactor>0.4</hungerRateFactor>
+    <marketValueFactor>0.7</marketValueFactor>
+    <meleeDamageFactor>0.6</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>0.45</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>ThrumboianTeen</defName>
+    <label>teen thrumboian</label>
+    <bodySizeFactor>0.5</bodySizeFactor>
+    <healthScaleFactor>0.5</healthScaleFactor>
+    <hungerRateFactor>0.6</hungerRateFactor>
+    <marketValueFactor>0.9</marketValueFactor>
+    <meleeDamageFactor>0.7</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>1.00</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>ThrumboianAdult</defName>
+    <label>thrumboian adult</label>
+	    <visible>false</visible>
+    <reproductive>true</reproductive>
+    <bodySizeFactor>1</bodySizeFactor>
+	<foodMaxFactor>1.1</foodMaxFactor>
+    <hungerRateFactor>0.9</hungerRateFactor>
+    <healthScaleFactor>1</healthScaleFactor>
+    <meleeDamageFactor>1</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>1.10</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+  
+  <LifeStageDef>
+    <defName>ThrumboianElder</defName>
+    <label>elder</label>
+	    <adjective>elder</adjective>
+    <visible>true</visible>
+    <reproductive>true</reproductive>
+	<bodySizeFactor>1</bodySizeFactor>
+	<foodMaxFactor>1.15</foodMaxFactor>
+    <hungerRateFactor>0.75</hungerRateFactor>
+    <healthScaleFactor>1.10</healthScaleFactor>
+    <meleeDamageFactor>1.25</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>0.95</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+
+</Defs>

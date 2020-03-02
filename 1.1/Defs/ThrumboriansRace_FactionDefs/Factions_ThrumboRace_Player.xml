@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <FactionDef Abstract="True" Name="ThrumboRacePlayerBase">
+    <homeIconPath>World/ThrumboBase</homeIconPath>
+    <colorSpectrum>
+      <li>(0.50, 0.50, 0.50)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef ParentName="ThrumboRacePlayerBase">
+    <defName>ThrumboRacePlayer</defName>
+    <label>Thrumboianopia</label>
+    <description>A rare gathering of Thrumboians.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Thrumbo_Pawn</basicMemberKind>
+    <pawnSingular>colonist</pawnSingular>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Neolithic</techLevel>
+    <backstoryCategories>
+      <li>ThrumboStories</li>
+    </backstoryCategories>
+    <expandingIconTexture>World/ThrumboBase</expandingIconTexture>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <geneticVariance>1</geneticVariance>
+		<startingResearchTags>
+			<li>TribalStart</li>
+		</startingResearchTags>
+		<hairTags>
+			<li>Tribal</li>
+		</hairTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+  </FactionDef>
+  
+</Defs>

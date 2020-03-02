@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Thrumbo Race</name>
+  <author>Naharri, Cenbes</author>
+  <url>https://github.com/Cenbes/Ginger-Thrumbo</url>
+  <supportedVersions>
+        <li>1.0</li>
+			<li>1.1</li>
+	</supportedVersions>
+  <description>This mod about a Thrumbo / Thrumboian race.  
+  
+  REQUIRES ALIEN FRAMEWORK to be loaded BEFORE / ABOVE this mod. 
+
+  
+  Perks of the Thrumboian:
+ - Half the health of a Thrumbo (4.0x for this Race vs 8.0x Thrumbo base)
+ - Innate armor double that of a Thrumbo, to make up for the lack of health:
+	80% blunt, 120% sharp, and 60% heat.
+ - Thrumbo Horn!  Not as powerful as a Thrumbo... but hey still a weapon.
+ - They live as long as a Thrumbo, 220 years.
+ - Clothing optional for the most part along with a few other perks:
+	They have the same weather needs as a Thrumbo -65C to 50C
+	Don't care about nudity, sleeping outside, sleeping on the floor, eating raw foods, butchering stuff, tables or observing corpses
+ - A Rage when injured and bleeding, giving them an slight edge when fighting.
+ - They are 10% faster at... well everything.
+ - They tend wounds 25% better than most humans!
+ - Cannot get: badback, frail, cataracts, hearing loss, dementia, alzheimers, or asthma.
+ - Also cannot have the traits: Jealous, Greedy, Cannibal, Chemical fascination, Chemical interest, AnnoyingVoice, CreepyBreathing, Pyromaniac, or Wimp.
+ - Innately more resistant to toxins.
+ - Move slightly slower than an angry Thrumbo, but faster than most pawns.
+ - Lastly, they can carry more than others, by nearly double, making them excellent caravaners.
+ 
+ Neutral:
+ - Vegetarian animal diet, meaning only Meals, Kibble, Hay, and other greenery, like Grass. 
+
+ Disadvantages of the Thrumboian:
+ - Unlike the Thrumbo, a Thrumboian cannot eat trees as they are too small.
+ - Are worth a lot, adding to colony value making raids harder just by being there.
+ - Only available via Raids from a hidden faction, Thrumbo Scenario, or the Mod Prepare Carefully.
+ - Raids by the Thrumboian Race will be... tough, so be prepared.
+ - Hunting Stealth is very poor, meaning much more likely to cause animal revenge when hunting.
+ - Hard to kill when attacking and harder to keep down.
+ - Also very hard to recruit.
+ - While they have a Thrumbo Horn, they do NOT drop it when butchered.
+ - BUT their leather is Thrumbo Fur.
+ 
+ The Thrumboians have only 1 extra part:
+ - A Thrumbo Horn, replaceable with Steel and Plasteel Horn which includes its own graphics.
+ 
+ 
+ However, other than a Horn replacements, there are NO changes to their base form, which SHOULD make them compatible with any mod that alters their bodies.  Such as EPOE or the like.
+ 
+ Known issues:
+ - Decaying Thrumboians do NOT have a horn, but their skeletons do.  At this time I cannot figure out how to change this. 
+ 
+ 
+Change Log:
+1.0.1 -added a graphic and graphic path for the Thrumbo Race Hidden Villages.
+1.0.2 -changed starting research level to allow for Thrumbo starting scenario to be able to research.
+1.0.3 -altered stats to actually give 70Kg caravan carry capacity vs vanilla 35.
+1.0.4 -changed starting research tech to Tribal. 
+1.0.5 -edited some values to be more in line with where they were supposed to be and less overpowered.  Like hauling capacity, hunting stealth, and horn attack chance. 
+1.1.0 -Added plasteel horn, tweaked values to reasemble more their animal spirit, tweaked allowed thougts, fixed soaking wet thought. All changed can be found in root mod folder in README_UPDATE.
+Mod now supports 1.0 and 1.1
+ 
+ 
+ 
+ 
+ 
+ 
+ This race was primarily made for my spouse and myself, mostly because we wanted an race that had a lot of perks and few downsides, and as of the making of this no one else made a Thrumbo race.  This mod was made for our enjoyment of the game, but figured others might enjoy it so I am posting it.  
+ 
+ 
+ I would like to state my thanks for everyone who supports Rimworld, both Tynan Sylvester and all the modders out there.  Seriously this is a great community and this game is one of the best I have ever had the pleasure to experience, both the original work and of course mods!
+
+
+
+ This mod was cobbled together by myself and what little art has been a combined effort of my spouse and I. 
+ 
+ 
+  </description>
+</ModMetaData>

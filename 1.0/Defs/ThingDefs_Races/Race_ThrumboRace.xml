@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="Thrumbo_Race">
+
+    <defName>Thrumbo_Race</defName>
+    <label>thrumboian</label>
+    <description>A mysterious race of half Human half Thrumbo.  No one Knows for sure if the Thrumboians are natives whom have kept in hiding till now, a genetic experiement, or something else.  However, there is no denying their natural abilities are above average.</description>
+    
+    <alienRace>
+        <generalSettings>
+			<maleGenderProbability>0.3</maleGenderProbability>
+			
+			<useOnlyPawnkindBackstories>true</useOnlyPawnkindBackstories>
+			
+			<immuneToAge>true</immuneToAge>
+			
+			<!--validBeds>
+				<li>Dummy_Bed</li>
+		    </validBeds>
+			
+			 <chemicalSettings>
+                <li>
+                    <chemical>Smokeleaf</chemical>
+                    <reactions>
+                        <li Class="IngestionOutcomeDoer_GiveHediff">
+                                <hediff>LungFailure</hediff>
+                                <severity>0.75</severity>
+                        </li>
+                    </reactions>
+                </li>
+                <li>
+                    <chemical>Luciferium</chemical>
+                    <ingestible>false</ingestible>
+                </li>
+            </chemicalSettings-->
+			
+			<forcedRaceTraitEntries>
+                <!--li>
+                    <defname>NaturalMood</defname>
+                    <degree>2</degree>
+                    <chance>50</chance>
+                    <commonalityMale>50</commonalityMale>
+                    <commonalityFemale>20</commonalityFemale>
+                </li>
+                <li>
+                    <defName>Nerves</defName>
+                    <degree>2</degree>
+                    <chance>50</chance>
+                    <CommonalityMale>50</CommonalityMale>
+                </li-->
+                <li>
+                    <defName>Beauty</defName>
+                    <degree>2</degree>
+                    <chance>50</chance>
+                </li>
+                <!--li>
+                    <defName>Gay</defName>
+                    <chance>50</chance>
+                </li>
+                <li>
+                    <defName>DragonoidKilhn</defName>
+					<degree>1</degree>
+					<chance>95</chance>
+                </li>
+                <li>
+                    <defName>DragonoidKilhn</defName>
+					<degree>2</degree>
+					<chance>95</chance>
+                </li>
+	            <li>
+                    <defName>DragonoidKilhn</defName>
+					<degree>3</degree>
+					<chance>99</chance>
+                </li>
+	            <li>
+                    <defName>DragonoidKilhn</defName>
+					<degree>4</degree>
+					<chance>100</chance>
+                </li>
+                <li>
+                    <defName>Greedy</defName>
+					<chance>50</chance>
+                </li>
+                <li>
+                    <defName>Bloodlust</defName>
+                    <chance>20</chance>
+                </li-->
+                <li>
+                    <defName>Tough</defName>
+                    <chance>50</chance>
+                </li>
+	            <li>
+                    <defName>Ascetic</defName>
+                    <chance>25</chance>
+                </li>
+            </forcedRaceTraitEntries>
+			
+			<disallowedTraits>
+               <li>Jealous</li>
+               <li>Greedy</li>
+               <li>Cannibal</li>
+			   <li>chemical fascination</li>
+			   <li>chemical interest</li>
+			   <li>AnnoyingVoice</li>
+			   <li>CreepyBreathing</li>
+			   <li>Pyromaniac</li>
+			   <li>Wimp</li>
+			   		   
+            </disallowedTraits>
+			
+			<!--factionRelations>
+                <li>
+                    <factions>
+                       <li>Thrumboians</li>
+                    </factions>
+                    <goodwill>
+                       <min>-100</min>
+                       <max>100</max>
+                    </goodwill>
+                </li>               
+            </factionRelations-->
+			
+			 <humanRecipeImport>true</humanRecipeImport>
+			 
+				<alienPartGenerator>
+					<aliencrowntypes>
+                    <li>Average_Pointy</li>
+                    <!--li>Test_letsWriteSomethingElseHere</li-->
+					</aliencrowntypes>
+						<alienbodytypes>
+						<li>Male</li>
+						<li>Female</li>
+						<!--li>Hulk</li>
+						<li>Thin</li-->
+						</alienbodytypes>
+
+				<bodyAddons>
+				<li>
+					<drawSize>1.0</drawSize>
+					<path>Pawns/ThrumboStuff/Horn/ThrumboianHorn</path>
+					<bodyPart>Horn</bodyPart>
+					<inFrontOfBody>true</inFrontOfBody>
+					<useSkinColor>false</useSkinColor>
+					<!--layerOffset>0.02</layerOffset-->
+				   	<hediffGraphics>                					 
+					    <SteelHorn>Pawns/ThrumboStuff/SteelHorn/ThrumboianSteel</SteelHorn>
+                    </hediffGraphics>
+					<offsets>
+						<south>
+							<bodyTypes>
+								<Male>(-0.45, 0.8)</Male>
+								<Female>(-0.45, 0.8)</Female>
+							
+							</bodyTypes>
+						</south>
+						<north>
+							<bodyTypes>
+								<Male>(0.0, 1.1)</Male>
+								<Female>(0.0, 1.1)</Female>
+							
+							</bodyTypes>
+						</north>
+						<east>
+							<bodyTypes>
+								<Male>(-0.67, 0.8)</Male>
+								<Female>(-0.67, 0.8)</Female>
+							
+							</bodyTypes>
+							<!--crownTypes>
+								<Average_Pointy>(0, 0.0)</Average_Pointy>
+							</crownTypes-->
+						</east>
+					</offsets>
+				</li>
+				</bodyAddons>
+
+				<!--useGenderedHeads>true</useGenderedHeads>
+				<useGenderedBodies>true</useGenderedBodies-->
+				
+			
+					<alienskincolorgen Class="ColorGenerator_Options">
+						<options>
+						<li>
+							<weight>5</weight>
+							<only>RGBA(0.8,0.8,0.8,1)</only>
+						</li>
+						<li>
+							<weight>2</weight>
+							<min>RGBA(0.8,0.8,0.8,1)</min>
+							<max>RGBA(1.0,1.0,1.0,1)</max>
+						</li>
+							</options>
+						</alienskincolorgen>
+					<alienskinsecondcolorgen Class="ColorGenerator_Options">
+							<options>
+						<li>
+							<weight>5</weight>
+							<only>RGBA(0.8,0.8,0.8,1)</only>
+						</li>
+						<li>
+						<weight>2</weight>
+							<min>RGBA(0.8,0.8,0.8,1)</min>
+							<max>RGBA(1.0,1.0,1.0,1)</max>
+						</li>
+							</options>
+					</alienskinsecondcolorgen>
+			
+            <alienhaircolorgen Class="ColorGenerator_Options">
+                <options>
+                    <li>
+                        <!--weight>5</weight-->
+                        <only>RGBA(1.0,1.0,1.0,1)</only>
+                    </li>
+                    <!--li>
+                        <weight>5</weight>
+                        <only>RGBA(0.90,0.90,0.90,1)</only>
+                    </li>
+                    <li>
+                        <weight>5</weight>
+                        <only>RGBA(0.92,0.92,0.92,1)</only>
+                    </li>
+                    <li>
+                        <weight>5</weight>
+                        <only>RGBA(0.96,0.96,0.96,1)</only>
+                    </li-->
+                </options>
+            </alienhaircolorgen>
+            <alienhairsecondcolorgen Class="ColorGenerator_Options">
+                <options>
+                    <li>
+                        <!--weight>5</weight-->
+                        <only>RGBA(1.0,1.0,1.0,1)</only>
+                    </li>
+                    <!--li>
+                        <weight>5</weight>
+                        <only>RGBA(0.70,0.65,0.82,1)</only>
+                    </li>
+                    <li>
+                        <weight>5</weight>
+                        <only>RGBA(0.61,0.75,0.91,1)</only>
+                    </li>
+                    <li>
+                        <weight>5</weight>
+                        <only>RGBA(0.79,0.86,0.96,1)</only>
+                    </li-->
+                </options>
+			</alienhairsecondcolorgen>
+				<!--headOffset>(0.25, 0.15)</headOffset-->
+							
+				</alienPartGenerator>
+        </generalSettings>
+        <graphicPaths>
+			<li>
+                <!--body>Pawns/Kilhn/Body/</body>
+                <head>Pawns/Kilhn/Head/</head>
+                <skeleton>TestPawn/Dessicated/</skeleton-->
+                <skull>Pawns/ThrumboStuff/Dessicated/Thrumboian_Skull</skull>
+			</li>
+			
+
+        </graphicPaths>
+        <hairSettings>
+            <hasHair>true</hasHair>
+			<getsGreyAt>200</getsGreyAt>
+			<hairTags>
+			<li>Urban</li>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			</hairTags>
+        </hairSettings>
+        <!--pawnKindSettings>
+
+        </pawnKindSettings-->
+        <thoughtSettings>
+				<cannotReceiveThoughts>
+				<!--li>AteCorpse</li>
+				<li>AteHumanlikeMeatAsIngredient</li>
+				<li>AteHumanlikeMeatDirect</li-->
+				<li>AteRawFood</li>
+				<!--li>ButcheredHumanlikeCorpse</li>
+				<li>KnowButcheredHumanlikeCorpse</li-->
+				<li>Naked</li>
+				<li>SleptOnGround</li>
+				<li>SleptOutside</li>
+				<li>soaking wet</li>
+				
+				</cannotReceiveThoughts>
+        </thoughtSettings>
+        <relationSettings>
+
+        </relationSettings>
+        <raceRestriction>
+
+        </raceRestriction>
+    </alienRace>
+
+  
+    <statBases>
+      <MarketValue>5000</MarketValue>
+      <MoveSpeed>5.25</MoveSpeed>
+      <Flammability>0.10</Flammability>
+      <ComfyTemperatureMin>-65</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+	  <ArmorRating_Blunt>0.80</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.60</ArmorRating_Heat>
+      <LeatherAmount>30</LeatherAmount>
+	  <Mass>30</Mass>
+	  	<SocialImpact>1.1</SocialImpact>
+  	    <CarryingCapacity>75</CarryingCapacity>
+		<ToxicSensitivity>0.50</ToxicSensitivity>
+		<HuntingStealth>0.50</HuntingStealth>
+		<MedicalTendQuality>1.25</MedicalTendQuality>
+		<ButcheryFleshEfficiency>1.1</ButcheryFleshEfficiency>
+		<AnimalGatherYield>1.25</AnimalGatherYield>
+        <WorkSpeedGlobal>1.1</WorkSpeedGlobal>
+		<MeleeDodgeChance>10</MeleeDodgeChance>
+        <MeleeHitChance>5</MeleeHitChance>
+		<GlobalLearningFactor>1.1</GlobalLearningFactor>
+	    <RestRateMultiplier>1.1</RestRateMultiplier>
+	    <ImmunityGainSpeed>1.1</ImmunityGainSpeed>
+    </statBases>
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>18</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>18</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+		<li>
+        <label>horn</label>
+        <capacities>
+          <li>Scratch</li>
+		  <li>Stab</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+        <!--ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable-->
+        <chanceFactor>0.95</chanceFactor>
+      </li> 
+      <!--li>
+        <label>horn</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.3</chanceFactor>
+      </li-->	  
+    </tools>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>220</lifeExpectancy>
+      <leatherDef>Leather_Thrumbo</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Human</body>
+      <baseBodySize>2</baseBodySize>
+      <baseHealthScale>3.0</baseHealthScale>  
+		<bloodDef>Filth_BloodThrumboian</bloodDef>
+		<foodType>VegetarianRoughAnimal</foodType>
+      <gestationPeriodDays>60</gestationPeriodDays>
+      <manhunterOnDamageChance>0.02</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>ThrumboianBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>ThrumboianJuvenile</def>
+          <minAge>2</minAge>
+        </li>
+        <li>
+          <def>ThrumboianTeen</def>
+          <minAge>10</minAge>
+        </li>
+        <li>
+          <def>ThrumboianAdult</def>
+          <minAge>18</minAge>
+        </li>
+        <li>
+          <def>ThrumboianElder</def>
+          <minAge>200</minAge>
+        </li>
+      </lifeStageAges>
+
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li>(14,0)</li>
+          <li>(18,5)</li>
+          <li>(50,250)</li>
+          <li>(100,250)</li>
+          <li>(200,50)</li>
+          <li>(220,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicThrumboian</li>
+        <!--li>Human</li-->
+      </hediffGiverSets>
+    </race>
+    <recipes>
+      <li>InstallSteelHorn</li>
+	
+      <li>InstallArchotechEye</li>
+      <li>InstallArchotechArm</li>
+      <li>InstallArchotechLeg</li>
+      <li>InstallPowerClaw</li>
+      <li>InstallBionicEye</li>
+      <li>InstallBionicArm</li>
+      <li>InstallBionicLeg</li>
+      <li>InstallBionicSpine</li>
+      <li>InstallBionicHeart</li>
+      <li>InstallBionicStomach</li>
+      <li>InstallBionicEar</li>
+      <li>InstallSimpleProstheticArm</li>
+      <li>InstallSimpleProstheticLeg</li>
+      <li>InstallSimpleProstheticHeart</li>
+      <li>InstallCochlearImplant</li>
+      <li>InstallPegLeg</li>
+      <li>InstallWoodenFoot</li>
+      <li>InstallDenture</li>
+      <li>InstallJoywire</li>
+      <li>InstallPainstopper</li>
+      <li>InstallNaturalHeart</li>
+      <li>InstallNaturalLung</li>
+      <li>InstallNaturalKidney</li>
+      <li>InstallNaturalLiver</li>
+      <li>ExciseCarcinoma</li>
+      <li>AdministerMechSerumHealer</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+      <li>Anesthetize</li>
+    </recipes>
+  
+	</AlienRace.ThingDef_AlienRace>
+	
+  <ThingDef ParentName="BaseFilth">
+    <defName>Filth_BloodThrumboian</defName>
+    <label>thrumboianblood</label>
+    <statBases>
+      <Beauty>0.5</Beauty>
+      <Cleanliness>0.5</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(131, 34, 34, 180)</color>
+    </graphicData>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>100</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
+
+</Defs>

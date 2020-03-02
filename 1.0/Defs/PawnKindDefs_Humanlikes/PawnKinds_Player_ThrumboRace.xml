@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Abstract="True" Name="BaseThrumboPawnKind">
+	<race>Thrumbo_Race</race>
+    <combatPower>250</combatPower>
+    <baseRecruitDifficulty>1.0</baseRecruitDifficulty>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+
+ 
+   <PawnKindDef ParentName="BaseThrumboPawnKind">
+    <defName>Thrumboian_Pawn</defName>
+    <label>Thrumboian</label>
+    <defaultFactionType>TribeCivil</defaultFactionType>
+    <backstoryCategories>
+      <li>ThrumboStories</li>
+    </backstoryCategories>
+    <combatPower>275</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <weaponTags>
+      <!--li>Gun</li-->
+      <li>MedievalMeleeBasic</li>
+	  <li>IndustrialBasic</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>165</min>
+      <max>2000</max>
+    </weaponMoney>
+    <apparelMoney>
+      <min>200</min>
+      <max>4500</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <techHediffsChance>0.0</techHediffsChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>2600</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+        <!--butcherBodyPart>
+          <bodyPartGroup>HornAttackTool</bodyPartGroup>
+          <thing>ThrumboHorn</thing>
+        </butcherBodyPart-->
+  </PawnKindDef>
+  
+   <!--PawnKindDef>
+    <defName>WildMan</defName>
+    <label>wondering thrumboian</label>
+    <labelPlural>wondering thrumboian</labelPlural>
+    <labelFemale>wondering thrumboian</labelFemale>
+    <labelFemalePlural>wondering thrumboian</labelFemalePlural>
+    <combatPower>50</combatPower>
+    <race>Thrumbo_Race</race>
+    <backstoryCategories>
+      <li>ThrumboStories</li>
+    </backstoryCategories>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <baseRecruitDifficulty>1.0</baseRecruitDifficulty>
+    <itemQuality>Poor</itemQuality>
+    <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="TribalBase">
+    <defName>StrangerInBlack</defName>
+    <label>stranger in white</label>
+    <labelMale>man in white</labelMale>
+    <labelFemale>woman in white</labelFemale>
+    <labelPlural>strangers in white</labelPlural>
+    <combatPower>100</combatPower>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>150</maxGenerationAge>
+    <isFighter>true</isFighter>
+    <race>Thrumbo_Race</race>
+    <backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
+    <backstoryCategories>
+      <li>ThrumboStories</li>
+    </backstoryCategories>
+    <invNutrition>10.0</invNutrition>
+    <inventoryOptions>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>6</choiceChance>
+          <thingDef>MedicineHerbal</thingDef>
+          <countRange>5</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <itemQuality>Good</itemQuality>
+    <weaponMoney>
+      <min>500</min>
+      <max>500</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <apparelRequired>
+      <li>Apparel_CollarShirt</li>
+      <li>Apparel_Pants</li>
+      <li>Apparel_Duster</li>
+      <li>Apparel_FlakVest</li>
+      <li>Apparel_CowboyHat</li>
+    </apparelRequired>
+    <apparelColor>(250,250,250)</apparelColor>
+  </PawnKindDef-->
+
+</Defs>

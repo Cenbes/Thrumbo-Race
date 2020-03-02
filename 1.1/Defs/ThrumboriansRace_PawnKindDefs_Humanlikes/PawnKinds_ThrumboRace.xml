@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="ThrumboRaceBase" Abstract="True">
+    <race>Thrumbo_Race</race>
+    <defaultFactionType>ThrumboRace</defaultFactionType>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <backstoryCategories>
+      <li>ThrumboStories</li>
+    </backstoryCategories>
+    <invNutrition>2.55</invNutrition>
+    <apparelTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </apparelTags>
+    <inventoryOptions>
+      <skipChance>0.70</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>30</min>
+            <max>100</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ThrumboRaceBase">
+    <defName>Thrumbo_Pawn</defName>
+   <label>Thrumboian</label>
+    <defaultFactionType>TribeCivil</defaultFactionType>
+    <backstoryCategories>
+      <li>ThrumboStories</li>
+    </backstoryCategories>
+    <combatPower>275</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+	  <li>IndustrialBasic</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>165</min>
+      <max>2000</max>
+    </weaponMoney>
+    <apparelMoney>
+      <min>200</min>
+      <max>4500</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <techHediffsChance>0.0</techHediffsChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>2600</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+        <!--butcherBodyPart>
+          <bodyPartGroup>HornAttackTool</bodyPartGroup>
+          <thing>ThrumboHorn</thing>
+        </butcherBodyPart-->
+  </PawnKindDef>
+
+ 
+</Defs>
